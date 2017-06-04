@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+  <!--#include file="header.html" -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2>留学评估</h2>
+      <p>完善以下信息，进一步完善方案，带*的栏位不能为空。</p>
+      <p> <br>
+      </p>
+      <div class="progress" style="position: relative; overflow: visible;"> <span class="numbg" style="left: 18%; " onclick="window.location.href='pinggu.shtml'">1</span> <span class="numbg"
+          style="left: 38%; " onclick="window.location.href='pinggu2.shtml'">2</span> <span class="numbg numbg-on" style="left: 58%; "
+          onclick="window.location.href='pinggu3.shtml'">3</span> <span class="numbg" style="left: 78%; " onclick="window.location.href='pinggu4.shtml'">4</span>
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;"> <span>填写意向</span> </div>
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+        <span>确定初步方案</span> </div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;"> <span>完善信息</span> </div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;"> <span>获得方案建议</span> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!--表单开始-->
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <!--大一以上-->
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-sm-4 control-label">当前最高学历学校</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="请输入您的学校名">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">当前所学专业</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">专业大类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">计算机专业</a></li>
+                  <li><a href="#">会计专业</a></li>
+                  <li><a href="#">建筑专业</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">专业细类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">软件工程</a></li>
+                  <li><a href="#">多媒体动画设计</a></li>
+                  <li><a href="#">计算机辅助设计</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">平时考试平均成绩水平（百分制）</label>
+            <div class="col-sm-6">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="60分以下" checked> 60分以下 &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="60~75"> 60~75 &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="76~85"> 76~85 &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="86~100"> 86~100 &nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">意向专业</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">专业大类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">计算机专业</a></li>
+                  <li><a href="#">会计专业</a></li>
+                  <li><a href="#">建筑专业</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">专业细类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">软件工程</a></li>
+                  <li><a href="#">多媒体动画设计</a></li>
+                  <li><a href="#">计算机辅助设计</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div style="text-align: center; padding: 10px 0">选填信息</div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">姓名</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">出生日期</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">年</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1990</a></li>
+                  <li><a href="#">1991</a></li>
+                  <li><a href="#">1992</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">月</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">日</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">语言能力</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">托福</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">托福</a></li>
+                  <li><a href="#">雅思</a></li>
+                  <li><a href="#">PTE</a></li>
+                </ul>
+                &nbsp;&nbsp;
+                <label>
+                <input class="form-control" id="focusedInput" type="text" value="分数">
+              </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">意向学校所在地区：<br>
+            （最多选择3个）</label>
+            <div class="col-sm-6">
+              <input type="checkbox" value="全部"> 全部 &nbsp;&nbsp;
+              <input type="checkbox" value="首都领地（堪培拉）"> 首都领地（堪培拉）&nbsp;&nbsp;
+              <input type="checkbox" value="新南威尔士州（悉尼）"> 新南威尔士州（悉尼） <br>
+              <input type="checkbox" value="维多利亚州（墨尔本）"> 维多利亚州（墨尔本）&nbsp;&nbsp;
+              <input type="checkbox" value="塔斯马尼亚州（霍巴特）"> 塔斯马尼亚州（霍巴特） <br>
+              <input type="checkbox" value="南澳大利亚州（阿德莱德）"> 南澳大利亚州（阿德莱德）&nbsp;&nbsp;
+              <input type="checkbox" value="昆士兰州（布里斯本 ）"> 昆士兰州（布里斯本 ） <br>
+              <input type="checkbox" value="西澳大利亚州（珀斯）"> 西澳大利亚州（珀斯）&nbsp;&nbsp;
+              <input type="checkbox" value="北领地（达尔文）"> 北领地（达尔文） </div>
+          </div>
+          <div class="container">
+            <div style="text-align: center; padding-top: 20px;">
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu2.shtml'">上一步</button>              &nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu4.shtml'">下一步</button>
+            </div>
+          </div>
+        </form>
+
+        <!--高三-->
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-sm-4 control-label">当前最高学历学校</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="请输入您的学校名">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">学校类别</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">普通学校</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">县（区）重点</a></li>
+                  <li><a href="#">市重点</a></li>
+                  <li><a href="#">省（直辖市）重点</a></li>
+                  <li><a href="#">国家重点</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">目标专业</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">专业大类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">计算机专业</a></li>
+                  <li><a href="#">会计专业</a></li>
+                  <li><a href="#">建筑专业</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">专业细类</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">软件工程</a></li>
+                  <li><a href="#">多媒体动画设计</a></li>
+                  <li><a href="#">计算机辅助设计</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div style="text-align: center; padding: 10px 0">选填信息</div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">姓名</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">出生日期</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">年</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1990</a></li>
+                  <li><a href="#">1991</a></li>
+                  <li><a href="#">1992</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">月</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">日</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">语言能力</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">托福</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">托福</a></li>
+                  <li><a href="#">雅思</a></li>
+                  <li><a href="#">PTE</a></li>
+                </ul>
+                &nbsp;&nbsp;
+                <label>
+                <input class="form-control" id="focusedInput" type="text" value="分数">
+              </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">意向学校所在地区：<br>
+            （最多选择3个）</label>
+            <div class="col-sm-6">
+              <input type="checkbox" value="全部"> 全部 &nbsp;&nbsp;
+              <input type="checkbox" value="首都领地（堪培拉）"> 首都领地（堪培拉）&nbsp;&nbsp;
+              <input type="checkbox" value="新南威尔士州（悉尼）"> 新南威尔士州（悉尼） <br>
+              <input type="checkbox" value="维多利亚州（墨尔本）"> 维多利亚州（墨尔本）&nbsp;&nbsp;
+              <input type="checkbox" value="塔斯马尼亚州（霍巴特）"> 塔斯马尼亚州（霍巴特） <br>
+              <input type="checkbox" value="南澳大利亚州（阿德莱德）"> 南澳大利亚州（阿德莱德）&nbsp;&nbsp;
+              <input type="checkbox" value="昆士兰州（布里斯本 ）"> 昆士兰州（布里斯本 ） <br>
+              <input type="checkbox" value="西澳大利亚州（珀斯）"> 西澳大利亚州（珀斯）&nbsp;&nbsp;
+              <input type="checkbox" value="北领地（达尔文）"> 北领地（达尔文） </div>
+          </div>
+          <div class="container">
+            <div style="text-align: center; padding-top: 20px;">
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu2.shtml'">上一步</button>              &nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu4.shtml'">下一步</button>
+            </div>
+          </div>
+        </form>
+
+        <!--高中以下-->
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-sm-4 control-label">当前最高学历学校</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="请输入您的学校名">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">学校类别</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">普通学校</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">县（区）重点</a></li>
+                  <li><a href="#">市重点</a></li>
+                  <li><a href="#">省（直辖市）重点</a></li>
+                  <li><a href="#">国家重点</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">性别</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">男</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">男</a></li>
+                  <li><a href="#">女</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div style="text-align: center; padding: 10px 0">选填信息</div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">姓名</label>
+            <div class="col-sm-6">
+              <input class="form-control" id="focusedInput" type="text" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">出生日期</label>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">年</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1990</a></li>
+                  <li><a href="#">1991</a></li>
+                  <li><a href="#">1992</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">月</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+              <div class="btn-group ">
+                <button type="button" class="btn btn-default">日</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-4 control-label">意向学校所在地区：<br>
+            （最多选择3个）</label>
+            <div class="col-sm-6">
+              <input type="checkbox" value="全部"> 全部 &nbsp;&nbsp;
+              <input type="checkbox" value="首都领地（堪培拉）"> 首都领地（堪培拉）&nbsp;&nbsp;
+              <input type="checkbox" value="新南威尔士州（悉尼）"> 新南威尔士州（悉尼） <br>
+              <input type="checkbox" value="维多利亚州（墨尔本）"> 维多利亚州（墨尔本）&nbsp;&nbsp;
+              <input type="checkbox" value="塔斯马尼亚州（霍巴特）"> 塔斯马尼亚州（霍巴特） <br>
+              <input type="checkbox" value="南澳大利亚州（阿德莱德）"> 南澳大利亚州（阿德莱德）&nbsp;&nbsp;
+              <input type="checkbox" value="昆士兰州（布里斯本 ）"> 昆士兰州（布里斯本 ） <br>
+              <input type="checkbox" value="西澳大利亚州（珀斯）"> 西澳大利亚州（珀斯）&nbsp;&nbsp;
+              <input type="checkbox" value="北领地（达尔文）"> 北领地（达尔文） </div>
+          </div>
+          <div class="container">
+            <div style="text-align: center; padding-top: 20px;">
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu2.shtml'">上一步</button>              &nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu4.shtml'">下一步</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
+
+      <!--表单结束-->
+    </div>
+  </div>
+  <!--#include file="footer.html" -->
+  
+</body>
+
+</html>

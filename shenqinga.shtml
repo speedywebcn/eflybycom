@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+  <!--#include file="header.html" -->
+
+  <!--banner-->
+  <section class="banner">
+    <div><img src="images/banner_news.jpg" alt="" /></div>
+  </section>
+  <div class="zi_com clearfix">
+    <div class="zi_left">
+      <div class="lian"> <br>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqinga.shtml'">填写意向学校及课程</button>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqingb.shtml'">&nbsp;&nbsp;申请学校材料上传&nbsp;&nbsp;</button>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqingc.shtml'">&nbsp;&nbsp;申请签证材料上传&nbsp;&nbsp;</button>
+      </div>
+      <div class="lian">
+        <div class="lian_t"> <span class="span1">联系我们</span> <span class="span2">CONTACT</span> </div>
+        <p> Suite 8b Level 2, 221 Queen Street Melbourne Australia </p>
+        <p> <a href="tel:0061-3-96702930">0061-3-96702930</a> </p>
+        <p> <a href="mailto:expressaus@outlook.com">expressaus@outlook.com</a> </p>
+      </div>
+    </div>
+    <div class="zi_right">
+      <div class="bar clearfix"> <span class="b_tt">留学申请</span> <span class="curbar"><i>您当前的位置：</i><a href="index.shtml">首页</a> >  <i>留学申请</i></span>        </div>
+      <div class="news_show">
+        <p>还未明确意向院校，需要和我们聊聊？ 点击这里 </p>
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">学校类别：</label>
+          <div class="col-sm-8">
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="大学" checked> 大学 &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="高中（对应澳洲学校10-12年级）"> 高中（对应澳洲学校10-12年级） &nbsp;&nbsp;&nbsp;&nbsp;<br>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="初中（对应澳洲学校7-9年级）"> 初中（对应澳洲学校7-9年级） &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="小学（对应澳洲学校1-6年级）"> 小学（对应澳洲学校1-6年级） &nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">学生性别：</label>
+          <div class="col-sm-8">
+            <input type="radio" name="sex" id="sexb" value="男" checked> 男 &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sex" id="sexg" value="女"> 女 &nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">意向院校一：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+          <label class="col-sm-1 control-label">专业：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">意向院校二：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+          <label class="col-sm-1 control-label">专业：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">意向院校三：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+          <label class="col-sm-1 control-label">专业：</label>
+          <div class="col-sm-3">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">联系手机：</label>
+          <div class="col-sm-4">
+            <input class="form-control" id="focusedInput" type="text" value="">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">在读或最高学历<br>学校所在地区：</label>
+          <div class="col-sm-2">
+            <select id="cmbProvince" name="cmbProvince" class="form-control"></select>
+          </div>
+          <div class="col-sm-3">
+            <select id="cmbCity" name="cmbCity" class="form-control"></select>
+          </div>
+          <div class="col-sm-3">
+            <select id="cmbArea" name="cmbArea" class="form-control"></select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12" style="text-align: center;">
+            <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='shenqingb.shtml'">保存 下一步</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="js/jsAddress.js"></script>
+    <script type="text/javascript">
+       addressInit('cmbProvince', 'cmbCity', 'cmbArea');
+    </script>
+  </div>
+  <!--#include file="footer.html" -->
+</body>
+
+</html>

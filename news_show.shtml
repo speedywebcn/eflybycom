@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+  <!--#include file="header.html" -->
+
+  <!--banner-->
+  <section class="banner">
+    <div><img src="images/banner_news.jpg" alt="" /></div>
+  </section>
+  <div class="zi_com clearfix">
+    <div class="zi_left">
+      <div class="top">
+        <span class="span1">新闻资讯</span>
+        <span class="span2">NEWS</span>
+      </div>
+      <ul>
+        <li class="active">
+          <a href="news.shtml">公司新闻</a>
+        </li>
+
+        <li>
+          <a href="news.shtml">行业新闻</a>
+        </li>
+      </ul>
+      <div class="lian">
+        <div class="lian_t">
+          <span class="span1">联系我们</span>
+          <span class="span2">CONTACT</span>
+        </div>
+        <p>
+          Suite 8b Level 2, 221 Queen Street Melbourne Australia
+        </p>
+        <p>
+          <a href="tel:0061-3-96702930">0061-3-96702930</a>
+        </p>
+        <p>
+          <a href="mailto:expressaus@outlook.com">expressaus@outlook.com</a>
+        </p>
+
+      </div>
+    </div>
+    <div class="zi_right">
+      <div class="bar clearfix">
+        <span class="b_tt">公司新闻</span>
+        <span class="curbar"><i>您当前的位置：</i><a href="index.shtml">首页</a> > <a href="news.shtml">新闻资讯</a> > <i>公司新闻</i></span>
+      </div>
+      <div class="news_show">
+        <div class="top_show">
+          <h3>电商出走移动之路 — 社交电商</h3>
+          <p>网站编辑：xlzb │ 发表时间：2017-5-22　</p>
+        </div>
+        <p>
+          社交电商概念由来已久，但始终未找到合适的突破口和真正意义上的爆发。 笔者认为主要原因是：传统PC时代时各项客观原因不具备，而移动互联网 的蓬勃发展和场景革命终于让此类电商模型拥有了大获成功的基础和契机。
+        </p>
+        <br>
+        <p>
+          社交电商化，电商社交化是目前电商发展的重要趋势之一。智能移动设备已得到 极大普及，人们高频使用着移动社交网络(如微信/微博/陌陌等)， 在移动端上所消耗的时间越来越多。
+        </p>
+        <br>
+        <p>
+          由于有了人的聚集，社交网络也自然有了商业价值，电商正在变成各社交媒体除了以广告售卖变现流量外的另一种重要的流量变现方式。
+        </p>
+        <br>
+
+        <p>
+          我们可以发现，目前社交媒体基本都顺应趋势设立了针对电商的模块，比如微信除了可利用公 众号开放接口开发微商城，也可直接使用第三方平台的微店。
+        </p>
+        <br>
+        <p>
+          另外它还推出了扫码品牌商入驻商城功能，品牌商可在微信后台编辑和上传产品相关条码信息 及链接，用户通过微信中的扫一扫功能，扫描实物商品的条形码就能看到产品的购买信息 ，并在微信中实现购买。
+
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--#include file="footer.html" -->
+
+</body>
+
+</html>

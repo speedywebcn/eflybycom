@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+  <!--#include file="header.html" -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2>留学评估</h2>
+      <p>该部分是根据您的输入信息，结合学校要求及以往申请数据分析，给出留学方案建议。</p>
+      <p>
+        <br>
+      </p>
+      <div class="progress" style="position: relative; overflow: visible;">
+        <span class="numbg" style="left: 18%; " onclick="window.location.href='pinggu.shtml'">1</span>
+        <span class="numbg numbg-on" style="left: 38%; " onclick="window.location.href='pinggu2.shtml'">2</span>
+        <span class="numbg" style="left: 58%; " onclick="window.location.href='pinggu3.shtml'">3</span>
+        <span class="numbg" style="left: 78%; " onclick="window.location.href='pinggu4.shtml'">4</span>
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;">
+          <span>填写意向</span>
+        </div>
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+          <span>确定初步方案</span>
+        </div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;">
+          <span>完善信息</span>
+        </div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+          style="width: 20%;">
+          <span>获得方案建议</span>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <div class="container">
+    <form class="bs-example bs-example-form" role="form">
+      <div class="row xuewei">
+        <!--学位循环-->
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <label><input type="radio" name="xuewei">硕士 
+                   <p>澳洲硕士课程学制一般为1.5—2年。根据不同学校或专业对英语成绩要求不同。若英语成绩好，则建议选择硕士课程。</p>
+            </label>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <label><input type="radio" name="xuewei">硕士预科 
+                   <p>澳洲硕士课程学制一般为1.5—2年。根据不同学校或专业对英语成绩要求不同。若英语成绩好，则建议选择硕士课程。</p>
+            </label>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <label><input type="radio" name="xuewei">博士 
+                   <p>澳洲硕士课程学制一般为1.5—2年。根据不同学校或专业对英语成绩要求不同。若英语成绩好，则建议选择硕士课程。</p>
+            </label>
+        </div>
+
+        <!--学位结束-->
+      </div>
+
+    </form>
+  </div>
+
+  <div class="container">
+    <div style="text-align: center; padding-top: 20px;">
+      <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu.shtml'">上一步</button> &nbsp;&nbsp;&nbsp;&nbsp;
+      <button class="btn btn-primary" data-toggle="button" onclick="window.location.href='pinggu3.shtml'">下一步</button>
+    </div>
+  </div>
+
+  <!--#include file="footer.html" -->
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+  <!--#include file="header.html" -->
+
+  <!--banner-->
+  <section class="banner">
+    <div><img src="images/banner_news.jpg" alt="" /></div>
+  </section>
+  <div class="zi_com clearfix">
+    <div class="zi_left">
+      <div class="lian"> <br>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqinga.shtml'">填写意向学校及课程</button>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqingb.shtml'">&nbsp;&nbsp;申请学校材料上传&nbsp;&nbsp;</button>
+        <button class="btn btn-primary bottomline" data-toggle="button" onclick="window.location.href='shenqingc.shtml'">&nbsp;&nbsp;申请签证材料上传&nbsp;&nbsp;</button>
+      </div>
+      <div class="lian">
+        <div class="lian_t"> <span class="span1">联系我们</span> <span class="span2">CONTACT</span> </div>
+        <p> Suite 8b Level 2, 221 Queen Street Melbourne Australia </p>
+        <p> <a href="tel:0061-3-96702930">0061-3-96702930</a> </p>
+        <p> <a href="mailto:expressaus@outlook.com">expressaus@outlook.com</a> </p>
+      </div>
+    </div>
+    <div class="zi_right">
+      <div class="bar clearfix"> <span class="b_tt">留学申请</span> <span class="curbar"><i>您当前的位置：</i><a href="index.shtml">首页</a> >  <i>留学申请</i></span>        </div>
+      <div class="news_show">
+        <p>我们提供免费申请学校offer服务。提交申请时，需要您缴纳一定金额的押金。押金金额在提交申请时的合同页面有说明。在申请完成后，押金将全额退还。 </p>
+        <p>在申请过程中，若您需要我们额外的服务，我们将进行电话沟通，有些服务需要收费，若产生费用，将在押金中扣除。 </p>
+        <p align="center">点击立即申请，开启梦想之路！</p>
+      </div>
+    </div>
+  </div>
+  <!--#include file="footer.html" -->
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>飞越网--澳大利亚本土留学申请机构</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/speedyweb.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/speedyweb.js'></script>
+</head>
+
+<body>
+<!--#include file="header.html" -->
+<div class="center">
+  <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+      <div class="active item"> <a href="#"><img src="images/b1.jpg"></a> </div>
+      <div class="item"> <a href="services.shtml"><img src="images/b2.jpg"></a> </div>
+    </div>
+    <!-- Carousel nav --> 
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a> <a class="carousel-control right"
+        href="#myCarousel" data-slide="next">&rsaquo;</a> </div>
+  <div class="container" style="position:relative">
+    <div class="top_all">
+      <h3>留学申请</h3>
+      <span>STUDY OVERSEA</span> </div>
+    <p></p>
+  </div>
+</div>
+
+<!--buzhou-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <div class="blueborder textcontent">
+        <h4><img src="images/k1.png" width="68" /><br>
+         
+          前期准备<br/>
+          信息收集 <br/>
+    
+        </h4>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <div class="greenborder textcontent">
+        <h4><img src="images/k2.png" width="68" /><br>
+         
+          正在确定 <br/>
+          目标学校 <br/>
+      
+        </h4>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <div class="yellowborder textcontent">
+        <h4><img src="images/k3.png" width="68" /><br>
+         
+          材料准备<br/>
+          准备申请 <br/>
+        
+        </h4>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <div class="redborder textcontent">
+        <h4><img src="images/k4.png" width="68" /><br>
+          <br/>
+          签证办理       
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--about-->
+<div class="home_about">
+  <div class="about_com clearfix">
+    <div class="a_left wow bounceInLeft">
+      <div class="ab_bg"> <i></i> </div>
+      <div class="pic"> <img src="images/about.jpg" alt="" class="vcenter" /> <i></i> </div>
+    </div>
+    <div class="a_right wow bounceInRight">
+      <div class="span_y"> COMPANY PROFILE </div>
+      <div class="span_z"> 关于我们 </div>
+      <p> 飞越网作为互联网留学公司可以为你提供全方位的免费语言培训及留学申请服务。 </p>
+      <p>致力于用互联网技术创造更好的留学客户体验，让用户用更低的成本获得优质国际教育资源，让留学不在成为难事。 </p>
+      <a href="" class="more">查看更多 →</a> </div>
+  </div>
+</div>
+<div class="home_news">
+  <div class="news_com">
+    <div class="top_all">
+      <h3>留学攻略</h3>
+      <span>NEWS AND INFORMATION</span> </div>
+    <div class="news_nei clearfix">
+      <div class="n_left  wow bounceInLeft">
+        <div class="imgd"> <a href="news.shtml"><img src="images/news1.jpg" alt=""/></a> </div>
+        <b><a href="news.shtml">还在舍近求远？转化只会越来越远</a></b>
+        <p> 对于多数To B类营销人员而言，他们的工作职责可以概括为以下几点：寻找潜在客户、挖掘商机、加强客户忠诚度、提高活动指标…… </p>
+        <a href="news.shtml" class="more">查看更多>></a> </div>
+      <div class="n_right">
+        <ul>
+          <li class="clearfix wow bounceInRight"  data-wow-delay="0.5s"> <a href="news.shtml"> <span class="ri"> <i>06</i>
+            <time>2017-04</time>
+            </span>
+            <div class="wen_nei">
+              <h4>营销路上，别丢了你的新浪微博</h4>
+              <p>嘴笨的我想了好多话术，但是发现效果都不好，不是大家没兴趣听下去，就是我讲的逻辑跳跃。所以今天先给大家带来一张图，有些戏谑的元素...</p>
+            </div>
+            </a> </li>
+          <li class="clearfix wow bounceInRight"  data-wow-delay="1s"> <a href="news.shtml"> <span class="ri"> <i>19</i>
+            <time>2017-03</time>
+            </span>
+            <div class="wen_nei">
+              <h4>你觉得微博现在还有用吗?我和我的同事们现在都不怎么玩微博了!</h4>
+              <p>诚然，相比当前如日中天的微信，风生水起的直播APP，微博似乎已经英雄迟暮，渐渐淡出了甲方市场部的视线，甚至于要感谢能提出此类问题的人的尊重了...</p>
+            </div>
+            </a> </li>
+          <li class="clearfix wow bounceInRight"  data-wow-delay="1.5s"> <a href="news.shtml"> <span class="ri"> <i>25</i>
+            <time>2017-02</time>
+            </span>
+            <div class="wen_nei">
+              <h4>基于账号的营销策略为何能“雄霸”B2B市场？</h4>
+              <p>近年来，随着越来越多的B2B企业开始采用基于账号的营销或销售方式，其在增加销售线索、促进转化等方面带来的效果有目共睹。你也许会困惑，这种营销方式为何如此奏效...</p>
+            </div>
+            </a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--case-->
+<div class="container">
+  <div class="pro_nei">
+    <div class="top_all">
+      <h3>成功案例</h3>
+      <span>SUCCESSFUL CASE</span> </div>
+    <p></p>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case1.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case2.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case3.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case4.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case1.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case2.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case3.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case4.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case1.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case2.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case3.jpg" class="img-responsive thumbnail"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"> <img src="images/case4.jpg" class="img-responsive thumbnail"> </div>
+  </div>
+</div>
+<!--#include file="footer.html" -->
+<script>
+    $(function () {
+      $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
+    });
+    $(window).resize(function () {
+      $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
+      console.log();
+    });
+  </script>
+  <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script> 
+<script>
+  if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+    new WOW().init();
+  };
+  </script> 
+</body>
+</html>
